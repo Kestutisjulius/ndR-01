@@ -63,3 +63,9 @@ function dalyba(a, b) {
     }
 }
 console.log(dalyba(5, 2));
+console.log(dalyba('5', 2));
+console.log(dalyba(NaN, 2));
+console.log(dalyba(5, 'NaN'));
+console.log(dalyba(5, isFinite));
+console.log(dalyba(true, isFinite));
+console.log(dalyba(99, 13));
